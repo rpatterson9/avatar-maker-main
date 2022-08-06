@@ -5,7 +5,7 @@ export function MoreMenu({ items }) {
   return (
     <div className="menuContainer">
       <button className="menuButton" onClick={() => setMenuVisible(!menuVisible)}>
-        ···
+    .
       </button>
       {menuVisible && <div className="menu">{items}</div>}
     </div>
